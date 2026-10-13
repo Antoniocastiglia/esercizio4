@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 30px;
+    background-color: #131921;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.header-logo {
+    width: 50px;
+    padding: 5px;
+}
+
+.lowbar-header {
+    height: 20px;
+    background-color: #232f3e;
+    display: flex;
+}
+
+.lowbar-header a {
+    color: white;
+    text-decoration: none;
+   padding: 7px;
+}
+
+main {
+    margin: 0 20px;
+    background-color: #f3f3f3;
+}
+
+.topbar-orange {
+    height: 20px;
+    background-color: orangered;
+    font-size: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+.topbar-orange p {
+color: white;
+margin: 5px;
+}
+
+.background-image {
+    background-image: url(./materiali/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+
+.background-image p  {
+    font-size: 10px;
+    padding: 15px;
+}
+
+section {
+    background-color: white;
+    height: 250px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.image-section {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+padding:5px;
+
+}
+
+.section-text {
+    display: flex;
+
+}
+
+.image-container {
+    width: 1em;
+}
+
+.frist-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figcaption a {
+    padding-left: 15px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #232f3e;
+    height: 30px;
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-footer {
+background-color: #131921 ;
+height: 40px;
+display: flex;
+justify-content: center;
+}
+
+.footer-image {
+    height: 40px;
+}
